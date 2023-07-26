@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card head">
+        <h1>
+            {{getTitle()}}
+        </h1>
+    </div>
+
+    <ul class="list-group list-group-flush">
+        <li *ngFor="let movie of movies" class="list-group-item">
+            <span class="badge badge-primary" style="background-color:brown;">{{movie.id}}</span> {{movie.name}}
+            <span class="close">X</span>
+        </li>
+    </ul>
+</div>
+
