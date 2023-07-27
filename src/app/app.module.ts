@@ -4,15 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { MovieComponent } from './movie/movie.component';
 import { MoviesComponent } from './movies/movies.component';
+import { FormsModule } from '@angular/forms';
+import { MovieDetailComponent } from './movie-detail/movie-detail.component';
+import { LoggingComponent } from './logging/logging.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieComponent,
-    MoviesComponent
+    MoviesComponent,
+    MovieDetailComponent,
+    LoggingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
