@@ -10,7 +10,7 @@ export class LoggingComponent implements OnInit{
 
   constructor(public loggingService: LoggingService){}
 
-  ngOnInit(): void {
+  ngOnInit(){
     
   }
 

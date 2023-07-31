@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class LoggingService {
 
-  constructor(public loggingService : LoggingService) { }
+  
 
   messages : string[] = [];
 

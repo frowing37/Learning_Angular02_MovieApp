@@ -2,7 +2,7 @@
     <div class="card-body" *ngIf="movie">
         <span class="badge" style="background-color: red;">ID :</span> {{movie.id}}
         <span class="badge" style="background-color: red;">NAME :</span> {{movie.name}}
-
+        <br>
         <div class="input-group">
             <input type="text" [(ngModel)]="movie.name" class="form-control">
             <div class="input-group-append">

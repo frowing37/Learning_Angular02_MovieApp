@@ -12,7 +12,7 @@ export class MovieService {
   constructor(private loggingService : LoggingService) {}
 
   getMovies(): Observable<Movie[]>{
-    this.loggingService.add('Complete Logging');
+    this.loggingService.add('Succesfuly Logging');
     return of(Movies);
   }
 
