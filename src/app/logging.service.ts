@@ -4,9 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class LoggingService {
-
   
-
   messages : string[] = [];
 
   add(message : string){
